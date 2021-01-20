@@ -10,7 +10,6 @@ const PostList = () => {
             renderItem={({item}) => <PostItem post={item}/>}
             keyExtractor={item => item.id}
             showsHorizontalScrollIndicator={false}
-            inverted
         />
     )
 }
